@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:stable-slim@sha256:110d5f965087ff76eca1f1402818de0c4966dc9baad8bc8c69177cfd50eeadcb
 
 RUN apt-get update && \
     DEBIAN_FRONTEND="noninteractive" \
